@@ -17,10 +17,54 @@ Most recent revision:
       <p><a href="index.html" target="_blank">Home</a>  <a href="menu.html" target="_blank">Menu</a>  <a href="contact.html" target="_blank">Contact Us</a></p>
       <hr>
 
+      <form action="index.html" method="post">
+
+        <label for="fullName">Name:</label>
+        <input type="text" name="fullName" id="fullName"> <br><br>
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email"> <br><br>
+        <label for="">Phone:</label>
+        <input type="text" name="phone" id="phone"> <br><br>
+
+        <label for="inquiry">Reason for Inquiry:</label>
+        <select class="" name="inquiry" id="inquiry">
+          <option value="catering" selected>Catering</option>
+          <option value="default">Private Party</option>
+          <option value="feedback">Feedback</option>
+          <option value="other">Other</option>
+        </select> <br><br>
+
+        <label for="info">Additional Information:</label>
+        <textarea name="info" id="info"></textarea> <br><br>
+
+          <label for="visit">Have you been to the restaurant?</label>
+          <input type="radio" name="visit" value="no" id="choice1" checked>
+          <label for="choice1">No</label>
+          <input type="radio" name="visit" value="yes" id="choice2">
+          <label for="choice2">Yes</label> <br><br>
+
+          <label for="contact">Best days to contact you:</label>
+          <input type="checkbox" name="contact" value="m" id="monday">
+          <label for="monday">M</label>
+          <input type="checkbox" name="contact" value="t" id="tuesday">
+          <label for="tuesday">T</label>
+          <input type="checkbox" name="contact" value="w" id="wednesday">
+          <label for="wednesday">W</label>
+          <input type="checkbox" name="contact" value="th" id="thursday">
+          <label for="thursday">Th</label>
+          <input type="checkbox" name="contact" value="f" id="friday">
+          <label for="friday">F</label> <br><br>
+
+        <input type="submit" name="submit" value="Send Request">
+
+      </form>
 
 
 
-      
+
+
+
+
 
 
       <hr>
