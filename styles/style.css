@@ -1,0 +1,43 @@
+/*
+Creator: Travis M. Benton
+Date created: Aug 17th, 2019
+Date last modified:
+*/
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    background-color: beige;
+  }
+
+  header, footer {
+    font-family: 'Permanent Marker', cursive;    
+  }
+
+  header, footer, nav {
+    background-color: white;
+  }
+
+/* Nav - Hover */
+
+  nav a:visited {
+    color: darkgreen;
+  }
+
+  nav a:hover {
+    font-weight: bold;       
+  }
+
+  nav a:active {
+    text-decoration: none;     
+  }
+
+  /* Nav - Hover */
+
+  
