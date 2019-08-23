@@ -14,6 +14,7 @@ html {
 
   body {
     background-color: beige;
+    text-align: center
   }
 
   header, footer {
@@ -24,7 +25,18 @@ html {
     background-color: white;
   }
 
+  .description {    
+    width: 600px;
+    margin: auto;
+    text-align: left;
+
+  }
+
 /* Nav - Hover */
+
+  nav {
+    text-align: left;
+  }
 
   nav a:visited {
     color: darkgreen;
@@ -38,6 +50,21 @@ html {
     text-decoration: none;     
   }
 
-  /* Nav - Hover */
+  /* Menu - .food */
+
+  .foodCol1 {
+    display: flex;
+    justify-content: space-around;    
+  }
+
+  .foodCol2 {
+    display: flex;
+    justify-content: space-around;     
+  }
+
+  .bev-table {
+    display: flex;
+    justify-content: space-around;    
+  }
 
   
