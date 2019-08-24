@@ -11,14 +11,31 @@ Most recent revision:
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>S&G Menu</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/restaurantStyle.css">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <style>      
-      body {
+      body,header, footer, nav {
         background-color: cyan;
+      }  
+      h3 {
+        text-align: center;
       }
       .tbl1 {
-    width: 18%;
+        width: 18%;
+      }
+      .foodCol1 {
+        display: flex;
+        justify-content: space-around;    
+      }
+
+      .foodCol2 {
+        display: flex;
+        justify-content: space-around;     
+      }
+
+      .bev-table {
+        display: flex;
+        justify-content: space-around;    
       }
   
     </style>
@@ -31,7 +48,7 @@ Most recent revision:
     <main>
       <hr> 
       <nav>
-          <p><a href="index.html">Home</a>  <a href="menu.html">Menu</a>  <a href="contact.html">Contact Us</a></p>
+          <p><a class="btn badge-pill" href="index.html">Home</a>  <a class="btn badge-pill" href="menu.html">Menu</a>  <a class="btn badge-pill" href="contact.html">Contact Us</a></p>
       </nav>
 
       <hr>
@@ -99,7 +116,7 @@ Most recent revision:
     <h3>Smoked Beverages</h3>
       <section class="bev-table">    
         
-          <table class="tbl1">                       
+          <table class="tbl1">                                 
             <tbody>
               <tr>
                 <td>Bottled Water</td>

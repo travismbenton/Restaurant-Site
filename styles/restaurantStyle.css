@@ -1,7 +1,7 @@
 /*
 Creator: Travis M. Benton
 Date created: Aug 17th, 2019
-Date last modified:
+Date last modified: 8-23-2019
 */
 
 html {
@@ -14,12 +14,13 @@ html {
 
   body {
     background-color: beige;
-    text-align: center
+    
   }
 
   header, footer {
-    font-family: 'Permanent Marker', cursive;    
-  }
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;    
+  }  
 
   header, footer, nav {
     background-color: white;
@@ -35,6 +36,7 @@ html {
 /* Nav - Hover */
 
   nav {
+    
     text-align: left;
   }
 
@@ -43,14 +45,15 @@ html {
   }
 
   nav a:hover {
-    font-weight: bold;       
+    font-weight: bold;
+    background-color: lightsalmon       
   }
 
   nav a:active {
     text-decoration: none;     
   }
 
-  /* Menu - .food */
+  /* Menu - .food 
 
   .foodCol1 {
     display: flex;
@@ -67,4 +70,5 @@ html {
     justify-content: space-around;    
   }
 
+  */ 
   
