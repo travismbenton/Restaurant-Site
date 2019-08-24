@@ -17,9 +17,13 @@ html {
     
   }
 
-  header, footer {
+  header, footer, .display-4 {
     font-family: 'Permanent Marker', cursive;
     text-align: center;    
+  }  
+
+  .bigNews {
+    font-family: 'Permanent Marker', cursive;
   }  
 
   header, footer, nav {
@@ -50,6 +54,23 @@ html {
   }
 
   nav a:active {
+    text-decoration: none;     
+  }
+
+  .container-fluid a {
+    background-color: white;
+  }
+
+  .container-fluid a:visited {
+    color: darkgreen;
+  }
+
+  .container-fluid a:hover {
+    font-weight: bold;
+    background-color: lightsalmon       
+  }
+
+  .container-fluid a:active {
     text-decoration: none;     
   }
 

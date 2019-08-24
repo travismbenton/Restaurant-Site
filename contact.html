@@ -24,20 +24,26 @@ Most recent revision:
         font-weight: bold;
         text-align: right;
       }
-      section form {        
-        width: 85%;
-        margin: auto;
-        padding-left: 300px;
+      
+      .container-fluid {
+         
       }
 
-      .form-button {
-          padding-left: 200px;      
+      .form-group {
+        width: 85%;        
       }
+
+      
+      .form-button {
+          border: 1px dotted red;     
+      }
+      
       
     </style>
   </head>
 
-  <body>
+  <body>  
+
     <header>
         <h1>Smoked & Grilled</h1>
     </header>
@@ -50,33 +56,35 @@ Most recent revision:
       
       <hr>
 
-      <section class="container-form">
+      <section class="container-fluid">
 
-        <form>
+        <div class="col">
+
+        <form">
           <div class="form-group row">
-            <label for="inputName" class="col-sm-3 col-form-label">Name:</label> <!--Distance of Label to Input-->
-            <div class="col-sm-4"> <!--Adjust the size of the Input box-->
+            <label for="inputName" class="col-sm col-form-label">Name:</label> <!--Distance of Label to Input-->
+            <div class="col-sm"> <!--Adjust the size of the Input box-->
               <input type="text" class="form-control" id="inputName" placeholder="Name">
             </div>
           </div>
 
           <div class="form-group row">
-            <label for="inputEmail" class="col-sm-3 col-form-label">Email:</label>
-            <div class="col-sm-4">
+            <label for="inputEmail" class="col-sm col-form-label">Email:</label>
+            <div class="col-sm">
               <input type="email" class="form-control" id="inputEmail" placeholder="Email">
             </div>
           </div>
 
           <div class="form-group row">
-            <label for="inputPhone" class="col-sm-3 col-form-label">Phone:</label>
-            <div class="col-sm-4">
+            <label for="inputPhone" class="col-sm col-form-label">Phone:</label>
+            <div class="col-sm">
               <input type="number" class="form-control" id="inputPhone" placeholder="Phone">
             </div>
           </div>
 
           <div class="form-group row">
-            <label for="InputInquiry" class="col-sm-3 col-form-label">Reason for Inquiry:</label>
-            <div class="col-sm-4">
+            <label for="InputInquiry" class="col-sm col-form-label">Reason for Inquiry:</label>
+            <div class="col-sm">
               <select class="form-control" id="InputInquiry">
                 <option selected>Catering</option>
                 <option value="1">Private Party</option>
@@ -87,8 +95,8 @@ Most recent revision:
           </div>
 
           <div class="form-group row">
-            <label for="inputInfo" class="col-sm-3 col-form-label">Additional Information:</label>
-            <div class="col-sm-4">
+            <label for="inputInfo" class="col-sm col-form-label">Additional Information:</label>
+            <div class="col-sm">
               <textarea class="form-control" id="inputInfo" placeholder="Notes"></textarea>              
             </div>
           </div>
@@ -96,8 +104,8 @@ Most recent revision:
           <!--Radio-->
 
           <div class="form-group row">
-            <label for="inputInfo" class="col-sm-3 pt-0 col-form-label">Restaurant Visit?</label>
-            <div class="col-sm-3">
+            <label for="inputInfo" class="col-sm pt-0 col-form-label">Restaurant Visit?</label>
+            <div class="col-sm">
 
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
@@ -114,8 +122,8 @@ Most recent revision:
           <!--Check Box-->          
           
           <div class="form-group row">
-            <label for="inputInfo" class="col-sm-3 pt-0 col-form-label">Contact Availability:</label>            
-            <div class="col-sm-4">
+            <label for="inputInfo" class="col-sm pt-0 col-form-label">Contact Availability:</label>            
+            <div class="col-sm">
 
               <div class="form-check form-check-inline">
                       <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
@@ -147,13 +155,17 @@ Most recent revision:
           
           <!--Submit Button-->
 
-          <div class="form-button">
-            <div class="col-sm-10">
+          <div class="form-group row">
+              <label for="inputName" class="col-sm col-form-label"></label>
+            <div class="col-sm">
               <button type="submit" class="btn btn-primary">Send Request</button>
             </div>
           </div>
 
         </form>
+
+        </div>
+
       </section>
 
 

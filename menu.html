@@ -17,12 +17,14 @@ Most recent revision:
       body,header, footer, nav {
         background-color: cyan;
       }  
-      h3 {
+      h3, .container-fluid p {
         text-align: center;
       }
       .tbl1 {
         width: 18%;
       }
+
+      /*
       .foodCol1 {
         display: flex;
         justify-content: space-around;    
@@ -32,6 +34,7 @@ Most recent revision:
         display: flex;
         justify-content: space-around;     
       }
+      */
 
       .bev-table {
         display: flex;
@@ -52,18 +55,24 @@ Most recent revision:
       </nav>
 
       <hr>
-    <div class="foodCol1">
-      <section>
-        <h3>Burger and Fries</h3>
-          <p>An American Classic!</p>
-          <p>Your choice - with or without cheese</p>
-          <p>Pickle, onion, tomato, and lettuce</p>
-          <p>Served with our famous thick cut</p>
-          <p>french fries</p>
-          <p>$7.95</p>
-      </section>
 
-      <section>
+  
+
+  <div class="container-fluid">
+
+    <div class="row">      
+          
+      <div class="col">        
+        <h3>Burger and Fries</h3>        
+        <p>An American Classic!</p>
+        <p>Your choice - with or without cheese</p>
+        <p>Pickle, onion, tomato, and lettuce</p>
+        <p>Served with our famous thick cut</p>
+        <p>french fries</p>
+        <p>$7.95</p>
+      </div>
+      
+      <section class="col">
         <h3>Hot Dog and Chips</h3>
           <p>A Summer Classic!</p>
           <p>Your choice - white or wheat bun</p>
@@ -71,19 +80,23 @@ Most recent revision:
           <p>Served with our house-made chips</p>
           <p>$7.95</p>
       </section>
-
-      <section>
+      
+      <section class="col">
         <h3>Italian Sausage and Peppers</h3>
           <p>An All-Time Favorite!</p>
           <p>Your choice - mild or spicy Cole Slaw</p>
           <p>Served with garlic mashers</p>
           <p>$10.95</p>
       </section>
-    </div>  
+    </div>
+  </div>    
     
-    
-    <div class="foodCol2">  
-      <section>
+  
+  <div class="container-fluid">
+
+    <div class="row">
+
+      <section class="col">
         <h3>TL Sandwich and Chips</h3>
           <p>Really Hits the Spot!</p>
           <p>Plain or Sesame Seed Bun</p>
@@ -92,7 +105,7 @@ Most recent revision:
           <p>$8.95</p>
       </section>
 
-      <section>
+      <section class="col">
         <h3>Lite House Salad</h3>
           <p>On the Lighter side</p>
           <p>Your choice - with or without cheese</p>
@@ -102,7 +115,7 @@ Most recent revision:
           <p>$6.95</p>
       </section>
 
-      <section>
+      <section class="col">
         <h3>Brisket Sandwich and Fries</h3>
           <p>A Taste of Texas!</p>
           <p>Smoked Brisket on thick-cut</p>
@@ -113,6 +126,8 @@ Most recent revision:
           <p>$7.95</p>
       </section>
     </div>
+  </div>
+
     <h3>Smoked Beverages</h3>
       <section class="bev-table">    
         
