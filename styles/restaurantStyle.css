@@ -74,6 +74,11 @@ html {
     text-decoration: none;     
   }
 
+  .carousel {
+    font-weight: bold;
+    font-size: 1.1em; 
+  }
+
   /* Menu - .food 
 
   .foodCol1 {
